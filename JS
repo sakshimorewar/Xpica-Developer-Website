@@ -1,0 +1,31 @@
+/*nav*/
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+
+    if (window.scrollY > 100) {
+      navbar.style.top = "-100px"; // hide navbar by moving it up
+    } else {
+      navbar.style.top = "0"; // show navbar at top
+    }
+  });
+
+
+/*animation*/
+
+AOS.init ({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true
+});
+
+// Submit btn
+function submitForm() {
+ 
+  alert("Your form has been submitted successfully!");
+  
+
+  const inputs = document.querySelectorAll('.info, .infoo');
+  inputs.forEach(input => input.value = '');
+}
+
+
