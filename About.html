@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPICA Website</title>
+    <link rel="icon" type="image/png" href="XPICA logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="navbar"> 
+        <img src="XPICA logo.jpg" alt="VDM logo" class="logo">
+        <div class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="team.html">Team & Clients</a>
+          <a href="product.html">Product</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+   <div class="wrapper">
+    <div class="about-content">
+      <div class="about">About Us</div>
+       <img src="about bg.jpg" alt="abt" class="imgabt" data-aos="zoom-in">
+      <p class="aboutpara">
+        At Xpica Developers, we are a passionate team of young tech professionals committed to delivering high-impact digital solutions.<br>
+        From web and mobile development to UI/UX design and digital transformation, we specialize in building scalable, user-centric products tailored to your business goals.<br>
+        Driven by a client-first approach, we blend creativity with cutting-edge technology to turn bold ideas into future-ready solutions.<br>
+        In a short span, we've partnered with startups, private enterprises, and independent businesses—proving our dedication to quality, speed, and innovation.<br>
+      </p>
+        <p class="bold">Xpica Developers — Where technology meets purpose.</p>
+    </div>
+
+   <!--form-->
+  <div class="combine">
+    <form class="form" data-aos="fade-up" data-aos-delay="300" onsubmit="handleSubmit(event)">
+          <div class="form-content">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message"></textarea>
+          </div>
+            <button type="submit" onclick="submitForm()">Send Message</button>
+    </form>
+    <div class="context" data-aos="fade-down">
+        <div class="call">
+            <i class="fa-solid fa-phone"></i>
+          <div class="textt">
+             <p>Call to ask any question</p>
+             <span>+91-7276717973</span>
+          </div>
+        </div>
+        <div class="call">
+            <i class="fa-solid fa-envelope"></i>
+          <div class="textt">
+             <p>Email to get free quote</p>
+             <span>contact@xpicadevelopers.com</span>
+          </div>
+        </div>
+        <div class="call">
+             <i class="fa-solid fa-location-dot"></i>
+          <div class="textt">
+             <p>Visit our office</p>
+             <span>Mhada Colony, N-2 Cidco, Chh. Sambhajinagar, Maharashtra</span>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+   
+ 
+ <footer class="footer">
+    <div class="footer-content2">
+      <div class="footer-logo" data-aos="flip-right">
+        <img src="XPICA logo.jpg" alt="Logo" class="logofooter" >
+        <div class="names">
+           <span class="xpicas">XPICA</span>
+           <span class="developers">DEVELOPERS</span>
+        </div>
+      </div>
+          <div class="footer-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+            <p class="end2"  data-aos="fade-up">Innovate. Transform. Succeed.</p>
+    </div>
+  </footer>
+</div>
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
